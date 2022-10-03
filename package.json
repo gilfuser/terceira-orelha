@@ -1,14 +1,18 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@nuxtjs/tailwindcss": "^5.3.3",
-    "nuxt": "3.0.0-rc.11"
-  }
+    "private": false,
+    "engines": {
+        "node" : ">=16.0.0 <17.0.0"
+    },
+    "scripts": {
+        "prebuild": "test \"$CI\" = true && npx pnpm install -r --store=node_modules/.pnpm-store || echo skipping pnpm install",
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+        "@nuxtjs/tailwindcss": "^5.3.3",
+        "nuxt": "3.0.0-rc.11"
+    }
 }
