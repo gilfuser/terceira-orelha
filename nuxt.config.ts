@@ -22,12 +22,12 @@ export default defineNuxtConfig({
     plugins: [
         // "~/plugins/vue-iframes",
     ],
-    buildModules: [
+    modules: [
         "@nuxtjs/color-mode",
         "@nuxtjs/tailwindcss",
         "@nuxtjs/svg",
+        // 'vue-scrollto/nuxt',
     ],
-    modules: ['@nuxtjs/tailwindcss'],
     webfontloader: {
         google: {
         families: [
@@ -37,8 +37,8 @@ export default defineNuxtConfig({
         ],
         },
     },
-  svg: {
-    vueSvgLoader: {
+    svg: {
+        vueSvgLoader: {
       // vue-svg-loader options
     },
     svgSpriteLoader: {
@@ -51,10 +51,10 @@ export default defineNuxtConfig({
   },
 
   // Nuxt Composition API Workaround as for May 27th
-  generate: {
-    // choose to suit your project
-    interval: 2000,
-  },
+  // generate: {
+  //   // choose to suit your project
+  //   interval: 2000,
+  // },
   tailwindcss: {
     // jit: true,
     // add '~tailwind.config` alias
