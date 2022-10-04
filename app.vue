@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <!-- <NuxtWelcome /> -->
-        <Radio />
-    <!-- <NuxtPage /> -->
-  </div>
+  <NuxtLayout>
+    <div>
+      <!-- <NuxtWelcome /> -->
+          <RadioCard />
+      <!-- <NuxtPage /> -->
+    </div>
+  </NuxtLayout>
 </template>

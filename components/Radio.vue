@@ -15,33 +15,19 @@
       name="my-frame"
       style="width: 100%; min-height: 150px; border: 0"
       @load="onLoad"
-    ></vue-iframe>
+    /></vue-iframe>
   -->
 </template>
 
-<script>
-export default {
-  name: "MyIframe",
-  data() {
-    return {
-      MyIframe: null,
-      src: "https://orelha.space/public/radio_3a_orelha/embed?theme=dark"
-    }
-  },
+<script setup>
+  // const name = "MyIframe"
+  // let myIframe = null
+  const src = "https://orelha.space/public/radio_3a_orelha/embed?theme=dark"
 
-  methods: {
-    onLoad(frame) {
-      this.myIframe = frame.contentWindow
-      console.log(frame)
-      /*
-            const sheetParent = sheetToBeRemoved.parentNode
-            sheetParent.removeChild(sheetToBeRemoved)
-      const sheetToBeRemoved =
-        frame.contentWindow.getElementsByClassName("now-playing-title")
-      */
-    }
-  }
-}
+  // function onLoad(frame) {
+  //   myIframe = frame.contentWindow
+  //   console.log(frame)
+  // }
 </script>
 
 <style>
