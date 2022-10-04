@@ -136,14 +136,14 @@ export default {
     }
   },
 
-  async fetch() {
-    this.nowPlaying = await fetch(
-      "https://orelha.space/api/nowplaying/radio_3a_orelha"
-    ).then((res) => res.json())
-  },
-  watch: {
-    "$route.query": "$fetch"
-  },
+  // async fetch() {
+  //   this.nowPlaying = await fetch(
+  //     "https://orelha.space/api/nowplaying/radio_3a_orelha"
+  //   ).then((res) => res.json())
+  // },
+  // watch: {
+  //   "$route.query": "$fetch"
+  // },
   mounted() {
     const sub = new NchanSubscriber(
       "https://orelha.space/api/live/nowplaying/3a_orelha"

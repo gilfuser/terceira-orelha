@@ -23,6 +23,6 @@
     "dependencies": {
         "nchan": "^1.0.10",
         "vue-iframes": "^0.0.20",
-        "vue-scrollto": "^2.20.0"
+        "vue-scrollto": "github:WolfgangDrescher/vue-scrollto#nuxt3"
     }
 }

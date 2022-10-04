@@ -2,7 +2,7 @@
   <div id="top" class="w-full bg-verde-preto h-screen">
     <!--    class="min-h-screen bg-gray-500"-->
     <nav id="navigation" class="sticky top-0 transition-all duration-500">
-      <!-- <TheMenu /> -->
+      <TheMenu />
     </nav>
     <div
       id="hero-section"
@@ -45,17 +45,16 @@
               smd:ml-10
               md:ml-0
               slg:w-4/5 slg:ml-6
+              max-w-xl
             "
           >
             ESCUTA ALÉM DA ESCUTA
-          </h1>
-          <p
+            <p
             class="
               text-sm text-offwhite
               tracking-widest
               antialised
               font-medium
-              text-center
               smd:text-left
               xsm:px-8
               mb-2
@@ -65,11 +64,12 @@
               md:pr-12
               slg:p-0 slg:text-lg
               xl:text-xl
-              slg:w-4/5
             "
           >
             Uma experiência sonora dos espaços e dos povos de todas as espécies
           </p>
+          </h1>
+          
           <!--          <pre class="mt-3 bg-verde-preto text-gray-300 text-xs">["ruídos","gritos"].choose+["urgentes","tênues"].choose</pre>-->
         </div>
         <div
@@ -123,7 +123,7 @@
       <div id="botao-volta" class="
         self-end text-center pt-5
       ">
-        <!-- <button v-scroll-to="{el:'#top'}" class="w-10 h-10 str border-4 border-gr text-gray-200
+        <button v-scroll-to="{el:'#top'}" class="w-10 h-10 str border-4 border-gr text-gray-200
         rounded-full"
         >
           <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -131,7 +131,7 @@
                   d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
                   fillRule="evenodd" />
           </svg>
-        </button> -->
+        </button>
       </div>
     </div>
     <div id="contato"
@@ -163,7 +163,7 @@
         </iframe>
       </div>
       <div class="self-end text-center pt-5">
-        <!-- <button v-scroll-to="{el:'#top'}" class="w-10 h-10 str border-4 border-gr text-gray-200
+        <button v-scroll-to="{el:'#top'}" class="w-10 h-10 str border-4 border-gr text-gray-200
         rounded-full"
         >
           <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -171,7 +171,7 @@
                   d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
                   fillRule="evenodd" />
           </svg>
-        </button> -->
+        </button>
         <div>
 
         </div>
