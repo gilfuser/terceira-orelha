@@ -2,7 +2,7 @@
   <div id="top" class="w-full bg-verde-preto h-screen">
     <!--    class="min-h-screen bg-gray-500"-->
     <nav id="navigation" class="sticky top-0 transition-all duration-500">
-      <TheMenu />
+      <!-- <TheMenu /> -->
     </nav>
     <div
       id="hero-section"
@@ -123,7 +123,7 @@
       <div id="botao-volta" class="
         self-end text-center pt-5
       ">
-        <button v-scroll-to="{el:'#top'}" class="w-10 h-10 str border-4 border-gr text-gray-200
+        <!-- <button v-scroll-to="{el:'#top'}" class="w-10 h-10 str border-4 border-gr text-gray-200
         rounded-full"
         >
           <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -131,7 +131,7 @@
                   d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
                   fillRule="evenodd" />
           </svg>
-        </button>
+        </button> -->
       </div>
     </div>
     <div id="contato"
@@ -154,7 +154,6 @@
         Se quiser criar uma parceria ou se criou uma obra de web-arte, radio-arte, arte gerativa ou qualquer entre isso - entre em contato!
         Ficaremos felizes em conversar com você e teremos prazer em receber pedidos, envios de músicas, dicas, sugestões, ideias e etc.
       </p>
-
       <div id="contact-form"
            class=" flex justify-center sm:flex-grow"
       >
@@ -164,7 +163,7 @@
         </iframe>
       </div>
       <div class="self-end text-center pt-5">
-        <button v-scroll-to="{el:'#top'}" class="w-10 h-10 str border-4 border-gr text-gray-200
+        <!-- <button v-scroll-to="{el:'#top'}" class="w-10 h-10 str border-4 border-gr text-gray-200
         rounded-full"
         >
           <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -172,7 +171,7 @@
                   d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
                   fillRule="evenodd" />
           </svg>
-        </button>
+        </button> -->
         <div>
 
         </div>
@@ -202,19 +201,19 @@
 //     const toggleVisibility = () => {
 //       isVisible.value = !isVisible.value
 //     }
-//     onMounted(() => {
-//       let prevScrollpos = window.pageYOffset
-//       window.onscroll = function() {
-//         const currentScrollPos = window.pageYOffset
-//         if (prevScrollpos > currentScrollPos || isVisible.value) {
-//           document.getElementById("navigation").style.top = "0"
-//         } else {
-//           document.getElementById("navigation").style.top = "-100px"
-//           // isVisible.value = false;
-//         }
-//         prevScrollpos = currentScrollPos
-//       }
-//     })
+//     // onMounted(() => {
+//     //   let prevScrollpos = window.pageYOffset
+//     //   window.onscroll = function() {
+//     //     const currentScrollPos = window.pageYOffset
+//     //     if (prevScrollpos > currentScrollPos || isVisible.value) {
+//     //       document.getElementById("navigation").style.top = "0"
+//     //     } else {
+//     //       document.getElementById("navigation").style.top = "-100px"
+//     //       // isVisible.value = false;
+//     //     }
+//     //     prevScrollpos = currentScrollPos
+//     //   }
+//     // })
 //     return {
 //       isVisible,
 //       toggleVisibility,

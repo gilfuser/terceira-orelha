@@ -2,8 +2,8 @@
   <NuxtLayout>
     <div>
       <!-- <NuxtWelcome /> -->
-          <RadioCard />
-      <!-- <NuxtPage /> -->
+          <!-- <RadioCard /> -->
+      <NuxtPage />
     </div>
   </NuxtLayout>
 </template>
